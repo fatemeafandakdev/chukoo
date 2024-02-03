@@ -6,8 +6,8 @@ function Better() {
     <div className='container'>
       <h1 className='my-5 title ' style={{fontSize:"80px",fontWeight:"bold"}}>Making the internet better for... well, everyone</h1>
       <div className='row justify-content-center '>
-     {Data3.map((itemss)=>{
-       return <Betteroption {...itemss}/>
+     {Data3.map((itemss,index)=>{
+       return <Betteroption key={index}  {...itemss}/>
      })}
 
 

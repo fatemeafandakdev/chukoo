@@ -1,4 +1,4 @@
-import React ,{useEffect,useState,useRef} from 'react'
+import React ,{useState,useRef} from 'react'
 import correct from "../assets/img/correct.png"
 import arrow from "../assets/img/arrow.png"
 import { Link } from 'react-router-dom'
@@ -49,7 +49,7 @@ Setshows(false)
               </div>
       
                <div className='d-flex  justify-content-between  align-items-center  mt-3 p-1 ' style={{borderRadius:"10px",backgroundColor:"#fffe53"}}>
-                <span><sapn className="fs-4 fw-bold ">£54.99</sapn>/month</span>
+                <span><span className="fs-4 fw-bold ">£54.99</span>/month</span>
                 <Link to={"/pay"}><img src={arrow} width={40}/></Link> 
 
                </div>
@@ -78,7 +78,7 @@ Setshows(false)
               </div>
       
                <div className='d-flex  justify-content-between  align-items-center  mt-3 p-1 ' style={{borderRadius:"10px",backgroundColor:"#fffe53"}}>
-               <span><sapn className="fs-4 fw-bold ">£54.99</sapn>/month</span>
+               <span><span className="fs-4 fw-bold ">£54.99</span>/month</span>
                 <Link to={"/pay"}><img src={arrow} width={40}/></Link> 
 
                </div>

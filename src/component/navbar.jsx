@@ -2,10 +2,9 @@ import React , {useState} from 'react'
 import { Link } from 'react-router-dom'
 import list from "../assets/img/list.png"
 import close from  "../assets/img/close.png"
-import { Icon } from 'react-icons-kit'
-import {globe} from 'react-icons-kit/feather/globe'
+
 import tag from "../assets/img/egg.png"
-import {chevronDown} from 'react-icons-kit/feather/chevronDown'
+
 import Navresponsive from './navresponsive'
 
 function Navbar() {

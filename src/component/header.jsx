@@ -1,19 +1,17 @@
 import React,{useEffect} from 'react'
 import master from "../assets/img/master.WEBM"
-import img from "../assets/img/header.png"
+
 import { Link } from 'react-router-dom'
-import { Icon } from 'react-icons-kit'
-import {iosStar} from 'react-icons-kit/ionicons/iosStar'
+
 import star from "../assets/img/star.png"
 import star2 from "../assets/img/star2.png"
-import Check from '../pages/check'
 import { useRef } from "react"
 function Header() {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  
   const vidRef=useRef();
-  useEffect(() => { vidRef.current.play(); },[]);
+  useEffect(() => { 
+    window.scrollTo(0, 0)
+    vidRef.current.play(); },[]);
   return (
     <div  className='row   px-5  ' style={{backgroundColor:"#fffe53"}}>
        <div className='col-12 col-md-5'>
